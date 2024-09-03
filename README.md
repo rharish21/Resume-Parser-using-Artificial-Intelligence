@@ -1,62 +1,83 @@
-#### RESUME PARSER USING ARTIFICIAL INTELLIGENCE
+## AI Resume Analyzer
 
-### ABOUT THE PROJECT
-- The AI Resume Analyzer is a Natural Language Processing (NLP)-based project designed to automate the process of parsing and analyzing resumes. Built using Python, this tool extracts key information such as skills, experience, education, and contact details from resumes in various formats (e.g., PDF, DOCX). It leverages NLP techniques like tokenization, named entity recognition (NER), and keyword matching to evaluate and rank resumes based on job-specific criteria. This project is ideal for recruiters and HR professionals looking to streamline the hiring process and improve candidate screening efficiency.
+An AI-powered tool to analyze resumes and extract key information such as skills, experience, and education. This project is a fork of [deepakpadhi986/AI-Resume-Analyzer](https://github.com/deepakpadhi986/AI-Resume-Analyzer), with enhancements for better usability and performance.
 
-### USEFUL LINKS AND REFERENCES
-  
-- Pandas: "https://pandas.pydata.org/"
-    - Ref1 : "https://github.com/OmkarPathak/pyresparser"
-    - Ref3 : "https://github.com/deepakpadhi986/AI-Resume-Analyzer"
-    - Ref2 : "https://pypi.org/project/pdfminer3/"
-     - Link1: "https://plotly.com/"
-     - Link2 :"https://www.nltk.org/"
-  
+---
 
-### Features 
-- Fetching Location and Miscellaneous Data
-- Uses Parsing Techniques to fetch
-- Basic Info Extraction
-- Skills Obtained
-- Key Features
+## Features
 
-### Requirements 
+- **Resume Parsing**: Extracts key details like skills, experience, and education from resumes.
+- **AI-Powered Analysis**: Uses natural language processing (NLP) to analyze and categorize resume content.
+- **User-Friendly Interface**: Simple and intuitive interface for uploading and analyzing resumes.
+- **Enhanced Accuracy**: Improved parsing and analysis algorithms for better results.
 
-**Have these things installed to make your process smooth**
-1) Python (3.9.12) https://www.python.org/downloads/release/python-3912/
-2) MySQL https://www.mysql.com/downloads/
-3) Visual Studio Code https://code.visualstudio.com/Download
-4) Visual Studio build tools for C++ https://aka.ms/vs/17/release/vs_BuildTools.exe
+---
 
-### Setup & Installation 
+## Technologies Used
 
-To run this project, perform the following tasks 
+- **Python**: Core programming language.
+- **Flask**: For building the web application.
+- **spaCy**: For natural language processing (NLP).
+- **Pandas**: For data handling and analysis.
+- **Bootstrap**: For frontend design.
 
-Download the code file manually or via clicking the copy code button
+---
+
+## Installation
+
+### Prerequisites
+
+1. **Python 3.8+**: Ensure Python is installed on your system.
+2. **Git**: To clone the repository.
+
+### Steps
+
+1. Clone the repository:
+
 ```bash
-git clone (attach Repository link here)
-
+   git clone https://github.com/your-username/AI-Resume-Analyzer.git
 ```
+2. Navigate to the project directory:
 
-**Create a virtual environment and activate it**
-
-Open your command prompt and change your project directory to ```AI-Resume-Analyzer``` and run the following command 
 ```bash
-python -m venv venvapp
+cd AI-Resume-Analyzer
 ```
+3. Install the required dependencies:
+
 ```bash
-cd venvapp/Scripts/activate
-```
-
-Downloading packages from ```requirements.txt``` inside ``App`` folder
-```bash
-cd../..
-
-cd App
-
 pip install -r requirements.txt
-
-python -m spacy download en_core_web_sm
-
 ```
+4. Download the spaCy model:
 
+```bash
+python -m spacy download en_core_web_sm
+```
+---
+
+## Usage
+
+- Start the Flask application:
+
+```bash
+python app.py
+```
+-Open your browser and visit:
+
+```bash
+http://localhost:5000
+```
+- Upload a resume (PDF or DOCX format) and click "Analyze".
+
+- View the extracted information, including skills, experience, and education.
+
+---
+
+## Future Enhancements
+
+- Multi-Language Support: Add support for resumes in multiple languages.
+
+- AI Recommendations: Provide suggestions for improving resumes based on industry standards.
+
+- Integration with Job Portals: Enable direct integration with job portals for automated resume submissions.
+
+- Export Options: Allow users to export analyzed data in various formats (e.g., CSV, JSON).
