@@ -32,7 +32,7 @@ An AI-powered tool to analyze resumes and extract key information such as skills
 
 ### Steps
 
-1. Clone the repository:
+1. Clone the repository: 
 
 ```bash
    git clone https://github.com/your-username/AI-Resume-Analyzer.git
