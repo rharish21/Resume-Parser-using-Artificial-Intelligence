@@ -1,6 +1,6 @@
 ## AI Resume Analyzer
 
-An AI-powered tool to analyze resumes and extract key information such as skills, experience, and education.
+An AI-powered tool to analyze resumes and extract key information such as skills, experience, and education
 
 ---
 
