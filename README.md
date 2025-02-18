@@ -7,6 +7,7 @@
   
 - Pandas: "https://pandas.pydata.org/"
     - Ref1 : "https://github.com/OmkarPathak/pyresparser"
+    - Ref3 : "https://github.com/deepakpadhi986/AI-Resume-Analyzer"
     - Ref2 : "https://pypi.org/project/pdfminer3/"
      - Link1: "https://plotly.com/"
      - Link2 :"https://www.nltk.org/"
