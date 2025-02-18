@@ -1,6 +1,6 @@
-#### AI-Resume-Analyzer
+#### RESUME PARSER USING ARTIFICIAL INTELLIGENCE
 
-### About the Project 
+### ABOUT THE PROJECT
 - The AI Resume Analyzer is a Natural Language Processing (NLP)-based project designed to automate the process of parsing and analyzing resumes. Built using Python, this tool extracts key information such as skills, experience, education, and contact details from resumes in various formats (e.g., PDF, DOCX). It leverages NLP techniques like tokenization, named entity recognition (NER), and keyword matching to evaluate and rank resumes based on job-specific criteria. This project is ideal for recruiters and HR professionals looking to streamline the hiring process and improve candidate screening efficiency.
 
 ### USEFUL LINKS AND REFERENCES
