@@ -35,7 +35,7 @@ An AI-powered tool to analyze resumes and extract key information such as skills
 1. Clone the repository: 
 
 ```bash
-   git clone https://github.com/your-username/AI-Resume-Analyzer.git
+   git clone (https://github.com/rharish21/Resume-Parser-using-Artificial-Intelligence.git)
 ```
 2. Navigate to the project directory:
 
