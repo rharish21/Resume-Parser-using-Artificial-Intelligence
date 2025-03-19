@@ -1,6 +1,6 @@
 ## AI Resume Analyzer
 
-An AI-powered tool to analyze resumes and extract key information such as skills, experience, and education. This project is a fork of [deepakpadhi986/AI-Resume-Analyzer](https://github.com/deepakpadhi986/AI-Resume-Analyzer), with enhancements for better usability and performance.
+An AI-powered tool to analyze resumes and extract key information such as skills, experience, and education.
 
 ---
 
